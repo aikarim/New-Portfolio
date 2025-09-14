@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abul Irfan Karim | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <button id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="intro">
+        <h1 class="typing">
+          <span class="typing-text"></span><span class="name"></span>
+        </h1>
+        <p class="tagline">Software Developer</p>
+      </div>
+      <div class="photo">
+        <img src="your-photo.jpg" alt="Abul Irfan Karim">
+      </div>
+    </section>
+
+    <!-- ABOUT & SKILLS -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I build simple, modern, functional solutions. Languages & tools I use regularly: Python, Java, C++, JavaScript, HTML, CSS, NodeJS.</p>
+      <h3>Skills</h3>
+      <div class="skills">
+        <span>Python</span>
+        <span>Java</span>
+        <span>C++</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>NodeJS</span>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume">
+      <h2>Resume</h2>
+      <p>Download my resume for details about education, experience, and contact.</p>
+      <button class="badge-btn resume-btn" onclick="showMessage('Download Resume')">
+        <i class="fas fa-file-download"></i> Download Resume
+      </button>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+      <h2>Projects</h2>
+      <p>Explore my latest work and prototypes.</p>
+      <button class="badge-btn projects-btn" onclick="showMessage('View Projects')">
+        <i class="fas fa-rocket"></i> View Projects
+      </button>
+    </section>
+  </main>
+
+  <!-- CONTACT POPUP -->
+  <div id="contactPopup" class="contact-popup">
+    <h3>Contact Me</h3>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-x"></i></a>
+      <a href="mailto:your-email@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
